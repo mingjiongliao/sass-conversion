@@ -1,10 +1,10 @@
 var MADD = (function(){
     var isReady = false;
-    
+
     document.addEventListener("DOMContentLoaded", function(){
-        isReady = true;    
+        isReady = true;
     });
-    
+
     return {
         code: 'MAD9013',
         name: 'Cross-Platform Web Development',
@@ -17,5 +17,4 @@ var MADD = (function(){
     }
 })();
 MADD.pageReady();
-
 setTimeout( function(){ MADD.pageReady(); }, 3000);
